@@ -1,20 +1,19 @@
 <div align="center">
 
 # 🛒 Amazon Reviews Sentiment Analysis
-
 ### NLP · Text Classification · Classical ML · DistilBERT · Sentiment Analysis
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![NLP](https://img.shields.io/badge/NLP-8A2BE2?style=for-the-badge)
-![Scikit Learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Sentiment Analysis](https://img.shields.io/badge/Sentiment%20Analysis-111827?style=for-the-badge)
+[![Python](https://img.shields.io/badge/Python-3.x-blue)](#)
+[![NLP](https://img.shields.io/badge/NLP-Sentiment%20Analysis-purple)](#)
+[![ML](https://img.shields.io/badge/Machine%20Learning-Classification-green)](#)
+[![Model](https://img.shields.io/badge/Model-DistilBERT-orange)](#)
+[![Metric](https://img.shields.io/badge/Evaluation-ROC--AUC-lightgrey)](#)
 
 </div>
 
 ---
 
-## 🔍 Overview
+### 🔍 Overview
 
 This project analyzes **Amazon product reviews** and classifies them as **positive or negative** using Natural Language Processing.
 
@@ -22,7 +21,7 @@ It compares traditional machine learning approaches with a transformer-based mod
 
 ---
 
-## 🎯 Project Goal
+### 🎯 Project Goal
 
 Online reviews contain valuable customer feedback, but reading thousands of reviews manually is not practical.
 
@@ -30,7 +29,7 @@ This project uses NLP to automatically identify review sentiment and evaluate mo
 
 ---
 
-## ✨ What This Project Includes
+### ✨ What This Project Includes
 
 | Area | Description |
 |---|---|
@@ -44,9 +43,9 @@ This project uses NLP to automatically identify review sentiment and evaluate mo
 
 ---
 
-## 📊 Visual Results
+### 📊 Visual Results
 
-### Review Word Count Distribution
+#### Review Word Count Distribution
 
 Shows how long the reviews are after preprocessing. This helps understand text length patterns before training.
 
@@ -54,7 +53,7 @@ Shows how long the reviews are after preprocessing. This helps understand text l
 
 ---
 
-### TF-IDF Feature Projection
+#### TF-IDF Feature Projection
 
 2D PCA/SVD projection of TF-IDF features, showing how sentiment classes overlap in the feature space.
 
@@ -62,7 +61,7 @@ Shows how long the reviews are after preprocessing. This helps understand text l
 
 ---
 
-### DistilBERT ROC Curve
+#### DistilBERT ROC Curve
 
 DistilBERT achieved strong classification performance with an ROC-AUC score of **0.9867**.
 
@@ -70,7 +69,7 @@ DistilBERT achieved strong classification performance with an ROC-AUC score of *
 
 ---
 
-## 🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 | Category | Tools / Methods |
 |---|---|
@@ -85,7 +84,7 @@ DistilBERT achieved strong classification performance with an ROC-AUC score of *
 
 ---
 
-## 🧪 Evaluation Focus
+### 🧪 Evaluation Focus
 
 | Metric / Check | Purpose |
 |---|---|
@@ -99,7 +98,7 @@ DistilBERT achieved strong classification performance with an ROC-AUC score of *
 
 ---
 
-## 👩‍💻 My Role
+### 👩‍💻 My Role
 
 I worked on this project as an **NLP and model evaluation contributor**.
 
@@ -115,9 +114,9 @@ My work focused on:
 
 ---
 
-## ▶️ How to Run
+### ▶️ How to Run
 
-### Prerequisites
+#### Prerequisites
 
 Make sure you have:
 
@@ -125,19 +124,13 @@ Make sure you have:
 - Jupyter Notebook or Google Colab
 - Required Python libraries installed
 
-### Setup Steps
+#### Setup Steps
 
-1. Clone the repository.
+1. Clone the repository. `git clone https://github.com/SHREENITHI-TV/Amazon-Reviews-Sentiment-Analysis.git`
 
-`git clone https://github.com/SHREENITHI-TV/Amazon-Reviews-Sentiment-Analysis.git`
+2. Open the notebook. `Amazon_Reviews.ipynb`
 
-2. Open the notebook.
-
-`Amazon_Reviews.ipynb`
-
-3. Install dependencies if needed.
-
-`pip install pandas numpy matplotlib seaborn scikit-learn transformers torch`
+3. Install dependencies if needed. `pip install pandas numpy matplotlib seaborn scikit-learn transformers torch`
 
 4. Run the notebook cells in order.
 
@@ -145,7 +138,7 @@ Make sure you have:
 
 ---
 
-## 📌 Project Relevance
+### 📌 Project Relevance
 
 This project demonstrates practical experience with:
 
@@ -160,7 +153,7 @@ This project demonstrates practical experience with:
 
 ---
 
-## 🚀 Future Improvements
+### 🚀 Future Improvements
 
 - Build a simple Streamlit demo
 
@@ -168,6 +161,6 @@ This project demonstrates practical experience with:
 
 <div align="center">
 
-### Built to compare classical NLP and transformer-based sentiment classification on Amazon review data.
+#### Built to compare classical NLP and transformer-based sentiment classification on Amazon review data.
 
 </div>
