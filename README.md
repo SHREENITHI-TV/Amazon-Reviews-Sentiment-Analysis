@@ -163,12 +163,7 @@ This project demonstrates practical experience with:
 
 ## 🚀 Future Improvements
 
-- Add more model comparison tables
-- Add confusion matrix visualization
-- Tune DistilBERT hyperparameters
-- Add explainability with sample predictions
 - Build a simple Streamlit demo
-- Package the workflow into reusable Python scripts
 
 ---
 
