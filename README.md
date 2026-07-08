@@ -48,24 +48,28 @@ This project uses NLP to automatically identify review sentiment and evaluate mo
 #### Review Word Count Distribution
 
 Shows how long the reviews are after preprocessing. This helps understand text length patterns before training.
+<p >
+  <img src="review-word-count-distribution.png" alt="Review Word Count Distribution" width="550">
+</p>
 
-![Review Word Count Distribution](review-word-count-distribution.png)
 
 ---
 
 #### TF-IDF Feature Projection
 
 2D PCA/SVD projection of TF-IDF features, showing how sentiment classes overlap in the feature space.
-
-![TF-IDF PCA Projection](tfidf-pca-projection.png)
+<p >
+  <img src="tfidf-pca-projection.png" alt="TF-IDF PCA Projection" width="550">
+</p>
 
 ---
 
 #### DistilBERT ROC Curve
 
 DistilBERT achieved strong classification performance with an ROC-AUC score of **0.9867**.
-
-![DistilBERT ROC Curve](distilbert-roc-curve.png)
+<p >
+  <img src="distilbert-roc-curve.png" alt="DistilBERT ROC Curve" width="550">
+</p>
 
 ---
 
