@@ -8,7 +8,6 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![NLP](https://img.shields.io/badge/NLP-8A2BE2?style=for-the-badge)
 ![Scikit Learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Transformers](https://img.shields.io/badge/Transformers-Hugging%20Face-FFD21E?style=for-the-badge)
 ![Sentiment Analysis](https://img.shields.io/badge/Sentiment%20Analysis-111827?style=for-the-badge)
 
 </div>
