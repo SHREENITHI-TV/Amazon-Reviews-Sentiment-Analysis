@@ -1,105 +1,179 @@
-# 📦 Sentiment Analysis of Amazon Product Reviews
-[![Python](https://img.shields.io/badge/Python-3.x-blue)](#)
-[![NLP](https://img.shields.io/badge/NLP-Sentiment%20Analysis-green)](#)
-[![Deep Learning](https://img.shields.io/badge/Model-Transformers-orange)](#)
-[![Dataset](https://img.shields.io/badge/Dataset-Amazon%20Reviews-lightgrey)](#)
+<div align="center">
 
-A comprehensive **sentiment analysis project** that classifies Amazon product reviews as **positive or negative** using both **classical machine learning models** and **transformer-based deep learning models**.
+# 🛒 Amazon Reviews Sentiment Analysis
 
----
+### NLP · Text Classification · Classical ML · DistilBERT · Sentiment Analysis
 
-## 📌 Overview
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![NLP](https://img.shields.io/badge/NLP-8A2BE2?style=for-the-badge)
+![Scikit Learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-Hugging%20Face-FFD21E?style=for-the-badge)
+![Sentiment Analysis](https://img.shields.io/badge/Sentiment%20Analysis-111827?style=for-the-badge)
 
-Online shopping platforms like Amazon rely heavily on user reviews. However, due to the massive volume of textual feedback, manual analysis is impractical.
-
-This project applies **Natural Language Processing (NLP)** techniques to automatically analyze Amazon reviews and determine their sentiment. The study compares the performance of traditional machine learning models with modern **transformer-based models**.
-
----
-
-## ✨ What This Project Does
-
-- 📄 Processes large-scale Amazon review text data
-- 🧹 Cleans and preprocesses textual data
-- 🧠 Trains classical ML models for sentiment classification
-- 🤖 Trains transformer-based models for comparison
-- 📊 Evaluates models using multiple performance metrics
-- 📈 Analyzes strengths and weaknesses of different approaches
+</div>
 
 ---
 
-## 📊 Dataset Information
+## 🔍 Overview
 
-This project uses the **Amazon Reviews Polarity Dataset** from Kaggle.
+This project analyzes **Amazon product reviews** and classifies them as **positive or negative** using Natural Language Processing.
 
-- **Source:** Kaggle – *Amazon Reviews* by Kritanjali Jain  
-- **Link:** https://www.kaggle.com/datasets/kritanjalijain/amazon-reviews/data
-
-### Dataset Description
-- Reviews labeled as:
-  - **Negative**: ratings 1 & 2
-  - **Positive**: ratings 4 & 5
-  - Rating 3 is excluded
-- Each review contains:
-  - `polarity` (label)
-  - `title` (review headline)
-  - `text` (review body)
-- Original dataset size:
-  - 1.8M training samples per class
-  - 200K testing samples per class
-
-To ensure computational feasibility, a **random subset of the dataset** is used during experimentation.
+It compares traditional machine learning approaches with a transformer-based model, **DistilBERT**, to understand how different NLP methods perform on review sentiment classification.
 
 ---
 
-## 🧰 Technology Stack
+## 🎯 Project Goal
 
-- **Python**
-- **Jupyter Notebook**
-- **Natural Language Processing**
-- **Scikit-learn**
-- **Transformers (Hugging Face)**
-- **NumPy, Pandas, Matplotlib**
-- **Google Colab**
+Online reviews contain valuable customer feedback, but reading thousands of reviews manually is not practical.
+
+This project uses NLP to automatically identify review sentiment and evaluate model performance using clear metrics and visual analysis.
 
 ---
 
-## 📈 Evaluation Metrics
+## ✨ What This Project Includes
 
-Models are evaluated using:
-
-* Accuracy
-* Precision
-* Recall
-* F1-score
-* Confusion Matrix
-* ROC-AUC Curve
-
-This allows a detailed comparison between classical and deep learning approaches.
-
----
-
-## 🎯 Applications
-
-* Customer feedback analysis
-* Product quality monitoring
-* Recommendation systems
-* Market sentiment analysis
-* NLP research and education
+| Area | Description |
+|---|---|
+| Text Cleaning | Preprocessed Amazon review text for modeling |
+| Exploratory Analysis | Analyzed review length and text distribution |
+| TF-IDF Features | Converted review text into numerical features |
+| PCA / SVD Projection | Visualized feature separation in 2D |
+| Classical ML | Compared traditional machine learning models |
+| DistilBERT | Used transformer-based sentiment classification |
+| Evaluation | Reviewed performance using ROC-AUC and classification metrics |
 
 ---
 
-## ⭐ What this Project Is about
+## 📊 Visual Results
 
-* Demonstrates real-world NLP pipeline
-* Compares classical ML vs transformer models
-* Handles large-scale text datasets
-* Relevant to industry NLP use cases
+### Review Word Count Distribution
+
+Shows how long the reviews are after preprocessing. This helps understand text length patterns before training.
+
+![Review Word Count Distribution](review-word-count-distribution.png)
+
+---
+
+### TF-IDF Feature Projection
+
+2D PCA/SVD projection of TF-IDF features, showing how sentiment classes overlap in the feature space.
+
+![TF-IDF PCA Projection](tfidf-pca-projection.png)
 
 ---
 
-## 📌 Notes
+### DistilBERT ROC Curve
 
-* Large datasets may require significant memory
-* Google Colab is recommended for smooth execution
+DistilBERT achieved strong classification performance with an ROC-AUC score of **0.9867**.
+
+![DistilBERT ROC Curve](distilbert-roc-curve.png)
 
 ---
+
+## 🛠️ Tech Stack
+
+| Category | Tools / Methods |
+|---|---|
+| Language | Python |
+| Environment | Jupyter Notebook / Google Colab |
+| Data Processing | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn |
+| Feature Engineering | TF-IDF, SVD / PCA |
+| Machine Learning | Scikit-learn |
+| Transformer Model | DistilBERT |
+| Task | Binary Sentiment Classification |
+
+---
+
+## 🧪 Evaluation Focus
+
+| Metric / Check | Purpose |
+|---|---|
+| Accuracy | Measures overall classification correctness |
+| Precision | Checks how many predicted positives are correct |
+| Recall | Checks how many actual positives are captured |
+| F1-score | Balances precision and recall |
+| ROC-AUC | Measures class separation quality |
+| Feature Projection | Helps visualize sentiment overlap |
+| Review Length Analysis | Understands dataset characteristics |
+
+---
+
+## 👩‍💻 My Role
+
+I worked on this project as an **NLP and model evaluation contributor**.
+
+My work focused on:
+
+- cleaning and preprocessing Amazon review text
+- analyzing review length distribution
+- building TF-IDF feature representations
+- visualizing feature space using PCA/SVD
+- training and comparing sentiment classification models
+- evaluating DistilBERT performance using ROC-AUC
+- documenting results through plots and metric summaries
+
+---
+
+## ▶️ How to Run
+
+### Prerequisites
+
+Make sure you have:
+
+- Python installed
+- Jupyter Notebook or Google Colab
+- Required Python libraries installed
+
+### Setup Steps
+
+1. Clone the repository.
+
+`git clone https://github.com/SHREENITHI-TV/Amazon-Reviews-Sentiment-Analysis.git`
+
+2. Open the notebook.
+
+`Amazon_Reviews.ipynb`
+
+3. Install dependencies if needed.
+
+`pip install pandas numpy matplotlib seaborn scikit-learn transformers torch`
+
+4. Run the notebook cells in order.
+
+5. Review preprocessing, visualizations, model results, and ROC curve.
+
+---
+
+## 📌 Project Relevance
+
+This project demonstrates practical experience with:
+
+- NLP text preprocessing
+- sentiment classification
+- feature engineering with TF-IDF
+- dimensionality reduction using PCA/SVD
+- classical ML model comparison
+- transformer-based NLP modeling
+- model evaluation and visualization
+- metric-driven validation
+
+---
+
+## 🚀 Future Improvements
+
+- Add more model comparison tables
+- Add confusion matrix visualization
+- Tune DistilBERT hyperparameters
+- Add explainability with sample predictions
+- Build a simple Streamlit demo
+- Package the workflow into reusable Python scripts
+
+---
+
+<div align="center">
+
+### Built to compare classical NLP and transformer-based sentiment classification on Amazon review data.
+
+</div>
